@@ -1,8 +1,8 @@
 # A simple code to calculate interest
-P = 1000 # Principal
-R = 0.05 # Rate
-T = 3 # Time
+principal = 1000 # in years
+rate = 0.05 # in decimal
+time = 3 # in years
 
-I = P * R * T 
+interest = principal * rate * time 
 
-print("The simple interest is:", I)
+print("The simple interest is:", interest)
