@@ -1,5 +1,5 @@
 # users's age calculation in a future year
-age = int(input("Enter your age: "))
+age = int(input("How old are you? "))
 
 # assuming the current year is 2023 and the future year is 2050
 future_age = age + 27
