@@ -16,6 +16,5 @@ class BankAccount:
             return withdraw
         
     def display_balance(self):
-        current_balance = f"Current Balance: ${float(self.account_balance)}"
-        return current_balance
-        
+        current_balance = f"Current Balance: ${float(self.account_balance)}0"
+        print(current_balance)
